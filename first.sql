@@ -1,1 +1,1 @@
-SELECT 'title' FROM "longlist"
+SELECT "title", "author" FROM 'longlist'
