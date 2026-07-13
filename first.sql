@@ -1,1 +1,1 @@
-SELECT * FROM "longlist"
+SELECT 'title' FROM "longlist"
