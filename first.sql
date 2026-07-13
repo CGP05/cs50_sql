@@ -1,1 +1,1 @@
-SELECT "title", "format" FROM "longlist" WHERE "format" <> 'hardcover';
+SELECT "title", "format" FROM "longlist" WHERE NOT "format" = 'hardcover';
