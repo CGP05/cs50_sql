@@ -1,1 +1,1 @@
-SELECT "title", "format" FROM "longlist" WHERE NOT "format" = 'hardcover';
+SELECT "title", "author" FROM "longlist" WHERE "year" = 2022 OR "year" = 2023;
