@@ -1,1 +1,1 @@
-SELECT "title" FROM "longlist" LIMIT 5;
+SELECT "title", "author" FROM "longlist" WHERE "year" = 2023;
