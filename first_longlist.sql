@@ -1,2 +1,2 @@
-SELECT "title", "rating", "votes" FROM 'longlist'
-WHERE "rating" > 4.0 AND "votes" > 10000
+SELECT "title", "rating", "pages" FROM 'longlist'
+WHERE "rating" > 4.0 AND "pages" > 300;
