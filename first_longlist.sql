@@ -1,2 +1,2 @@
 SELECT "title" FROM 'longlist'
-WHERE "title" LIKE 'The%love%';
+WHERE "title" LIKE 'P_re';
