@@ -1,2 +1,2 @@
 SELECT "title", "year" FROM 'longlist'
-WHERE "year" >= 2019 AND "year" <= 2022;
+WHERE "year" BETWEEN 2019 and 2022;
