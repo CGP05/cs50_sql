@@ -1,2 +1,2 @@
 SELECT "title", "rating" FROM "longlist"
-ORDER BY "rating" LIMIT 10;
+ORDER BY "rating" DESC LIMIT 10;
