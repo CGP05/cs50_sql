@@ -1,1 +1,1 @@
-SELECT MAX("rating") FROM "longlist";
+SELECT MIN("rating") FROM "longlist";
