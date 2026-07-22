@@ -1,1 +1,1 @@
-SELECT "publisher" FROM "longlist";
+SELECT DISTINCT("publisher") FROM "longlist";
