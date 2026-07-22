@@ -1,1 +1,1 @@
-SELECT DISTINCT("publisher") FROM "longlist";
+SELECT COUNT(DISTINCT "publisher") FROM "longlist";
