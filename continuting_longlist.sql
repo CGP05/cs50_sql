@@ -1,1 +1,1 @@
-SELECT COUNT("translator") FROM "longlist";
+SELECT MAX("title"), MIN("title") FROM "longlist";
