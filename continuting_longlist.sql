@@ -1,1 +1,1 @@
-SELECT ROUND(AVG("rating"), 2) FROM "longlist";
+SELECT MAX("rating") FROM "longlist";
