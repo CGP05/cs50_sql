@@ -1,1 +1,1 @@
-SELECT MAX("title"), MIN("title") FROM "longlist";
+SELECT "publiser" FROM "longlist";
