@@ -1,1 +1,1 @@
-SELECT SUM("votes") FROM "longlist";
+SELECT COUNT(*) FROM "longlist";
