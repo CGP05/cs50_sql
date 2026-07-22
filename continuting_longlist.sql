@@ -1,1 +1,1 @@
-SELECT COUNT(*) FROM "longlist";
+SELECT COUNT("translator") FROM "longlist";
