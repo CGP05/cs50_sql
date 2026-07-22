@@ -1,1 +1,1 @@
-SELECT MIN("rating") FROM "longlist";
+SELECT "title", "votes" FROM "longlist";
