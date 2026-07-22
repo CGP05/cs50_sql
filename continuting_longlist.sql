@@ -1,1 +1,1 @@
-SELECT "publiser" FROM "longlist";
+SELECT "publisher" FROM "longlist";
