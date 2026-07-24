@@ -1,1 +1,1 @@
-SELECT "title" FROM "longlist" WHERE "publisher" = 'MacLehose Press';
+SELECT "isbn" FROM "longlist" WHERE "title" = 'In Memory of Memory'
