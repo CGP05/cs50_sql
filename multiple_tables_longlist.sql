@@ -1,1 +1,1 @@
-SELECT "id" FROM "publisher" WHERE 'MacLehose Press';
+SELECT "title" FROM "longlist" WHERE "publisher" = 'MacLehose Press';
