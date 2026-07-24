@@ -1,1 +1,1 @@
-SELECT "isbn" FROM "longlist" WHERE "title" = 'In Memory of Memory'
+SELECT "rating" FROM "longlist" WHERE "title" = 'In Memory of Memory'
