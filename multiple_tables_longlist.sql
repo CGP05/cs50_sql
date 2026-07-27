@@ -1,1 +1,3 @@
-SELECT "isbn" FROM "longlist" WHERE "name" = 'Fernanda Melchor'
+SELECT "isbn" 
+FROM "longlist" 
+WHERE "author" = 'Fernanda Melchor';
