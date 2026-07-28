@@ -1,3 +1,1 @@
-SELECT "name" FROM "translators"
-UNION
-SELECT "name" FROM "authors";
+SELECT 'author' AS 'profession', "name" FROM "authors";
