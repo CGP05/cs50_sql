@@ -1,3 +1,3 @@
 SELECT "name" FROM "authors"
-INTERSECT
+EXCEPT
 SELECT "name" FROM "translators";
