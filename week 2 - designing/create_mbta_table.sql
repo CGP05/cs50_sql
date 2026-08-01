@@ -1,4 +1,4 @@
-CREATE TABLE "stations"(
+CREATE TABLE IF NOT EXISTS "stations"(
     "id",
 	"name"
 );
