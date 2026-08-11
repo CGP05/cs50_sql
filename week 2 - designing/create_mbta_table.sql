@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS "stations"(
-    "id",
-	"name"
-);
+CREATE TABLE "visits" (
+	"rider_id",
+	"station_id"
+	
