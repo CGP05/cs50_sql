@@ -12,7 +12,10 @@ CREATE TABLE "stations" (
 );
 
 CREATE TABLE "visits" (
+	"id" INTEGER,
 	"rider_id" INTEGER,
 	"station_id" INTEGER,
-	FOREIGN KEY("rider_id") REFERENCES "rider"("id")
+	PRIMARY("id")
+	FOREIGN KEY("rider_id") REFERENCES "rider"("id"),
+	FOREIGN KEY("station_id") REFERENCES "stations"("id")
 );
