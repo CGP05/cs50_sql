@@ -9,3 +9,6 @@ CREATE TABLE "stations" (
 	"line" TEXT
 );
 
+CREATE TABLE "visits" (
+	"rider_id" INTEGER
+	"station_id" INTEGER
