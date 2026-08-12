@@ -6,7 +6,7 @@ CREATE TABLE "riders" (
 
 CREATE TABLE "stations" (
 	"id" INTEGER,
-	"name" TEXT,
+	"name" TEXT NOT NULL,
 	"line" TEXT,
 	PRIMARY KEY("id")
 );
