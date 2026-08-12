@@ -14,5 +14,5 @@ CREATE TABLE "stations" (
 CREATE TABLE "visits" (
 	"rider_id" INTEGER,
 	"station_id" INTEGER,
-	PRIMARY KEY("rider_id","station_id")
+	FOREIGN KEY("rider_id") REFERENCES "rider"("id")
 );
