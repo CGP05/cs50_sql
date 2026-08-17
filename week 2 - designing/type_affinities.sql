@@ -1,5 +1,5 @@
-CREATE TABLE "riders" (
-	"id" INTEGER,
+CREATE TABLE "cards" (
+	"card_id" INTEGER,
 	"name" TEXT,
 	PRIMARY KEY ("id")
 );
