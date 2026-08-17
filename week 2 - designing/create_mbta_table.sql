@@ -1,4 +1,9 @@
-CREATE TABLE "visits" (
-	"rider_id",
-	"station_id"
-	
+CREATE TABLE IF NOT EXISTS "stations" (
+"id" INTEGER,
+"name" TEXT,
+"line" TEXT
+);
+CREATE TABLE IF NOT EXISTS "visits" (
+"rider_id" INTEGER,
+"station_id" INTEGER
+);
