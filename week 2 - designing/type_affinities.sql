@@ -19,6 +19,6 @@ CREATE TABLE "swipes" (
 	"datetime" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	"amount" NUMERIC NOT NULL CHECK("amount" != 0),
 	PRIMARY("id")
-	FOREIGN KEY("rider_id") REFERENCES "rider"("id"),
+	FOREIGN KEY("card_id") REFERENCES "rider"("id"),
 	FOREIGN KEY("station_id") REFERENCES "stations"("id")
 );
