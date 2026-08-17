@@ -11,10 +11,13 @@ CREATE TABLE "stations" (
 	PRIMARY KEY("id")
 );
 
-CREATE TABLE "visits" (
+CREATE TABLE "swipes" (
 	"id" INTEGER,
 	"rider_id" INTEGER,
 	"station_id" INTEGER,
+	"type" TEXT NOT NULL CHECK ("type" IN ('enter', 'exit', 'deposit')),
+	"datetime" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	"amount" NUMERIC NOT NULL CHECK("amount" != 0),
 	PRIMARY("id")
 	FOREIGN KEY("rider_id") REFERENCES "rider"("id"),
 	FOREIGN KEY("station_id") REFERENCES "stations"("id")
