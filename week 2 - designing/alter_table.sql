@@ -1,1 +1,1 @@
-ALTER TABLE "swipes" RENAME COLUMN "ttpe" TO "type";
+ALTER TABLE "swipes" DROP COLUMN "type";
