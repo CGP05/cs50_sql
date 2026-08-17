@@ -1,1 +1,1 @@
-ALTER TABLE "visits" RENAME TO "swipes";
+ALTER TABLE "swipes" ADD COLUMN "ttpe" TEXT;
