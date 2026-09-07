@@ -1,1 +1,1 @@
-DELETE FROM "collections" WHERE "title" = 'Imaginative landscape';
+DELETE FROM "collections" WHERE "acquired" IS NULL;
