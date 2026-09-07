@@ -1,2 +1,2 @@
-	INSERT INTO table0 (column, ...)
-	SELECT column0, ... FROM table1;
+INSERT INTO "collections" ("title", "accession_number", "acquired")
+SELECT "title", "
