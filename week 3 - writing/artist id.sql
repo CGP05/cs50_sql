@@ -1,2 +1,2 @@
-DELETE FROM "artists" WHERE "artist_id" = (
-	SELECT "id" FROM 
+FOREIGN KEY("artist_id") REFERENCES "artists"("id")
+ON DELETE SET NULL
